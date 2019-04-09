@@ -1,0 +1,41 @@
+#PARSE METACRITIC 
+
+Parse Metacritic is a Java software that parses a HTML specific page from a PlayStation website 
+(https://www.metacritic.com/game/playstation-4) to a Document Java Object using the framework Jsoup. 
+
+
+## Installation
+
+To run this project, you will need to have the following softwares/technologies as a pre-requisite:
+
+- Eclipse IDE, Java SDK 1.8, Jsoup 1.11.3.jar, Gson 2.8.0.jar, mockito -all - 1.10.19.jar and JUnit (junit4.jar).
+
+- All of the dependencies on this project are managed by Maven.
+
+- Import the project into Eclipse as a Java Project.
+
+- Probably you will need to right click on Project's icon, Maven --> Update Project (this is because
+Maven pops-with an error during the first project load).
+
+- Following these instructions, all of the errors are gone!
+
+
+## Usage
+
+```
+Go to the source folder -> com/exercise1/main and run the 
+class ParseMetacriticMain.java 
+as a Java Application on mouse right click and run as Java Application and it will 
+simply run the application printing out the extracted data from the above URL 
+in the JSONArrayObjects.
+
+
+
+```
+## Contributing
+For any questions, please email Lucas Abr√£o (lucaspiano@gmail.com).
+
+Please make sure to update tests as appropriate.
+
+## License
+Lucas Abr„o (lucaspiano@gmail.com)
